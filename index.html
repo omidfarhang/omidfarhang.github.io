@@ -1,24 +1,1388 @@
----
-layout: default
----
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="author" content="Omid Farhang" />
+<!-- Document Title -->
+<title>Omid Farhang Resume</title>
 
-<div class="home">
+<!-- StyleSheets -->
+<link rel="stylesheet" href="css/ionicons.min.css">
+<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
 
-  <h1 class="page-heading">Posts</h1>
+<!-- FontsOnline -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<!-- JavaScripts -->
+<script src="js/vendors/modernizr.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<!-- Page Wrapper -->
+<div id="wrap"> 
+  
+  <!-- Content -->
+  <main class="cd-main-content">
+    <div id="content">
+      <div class="resume">
+        <div class="container"> 
+          
+          <!-- TOP HEAD -->
+          <div class="top-head">
+            <div class="row">
+              <div class="col-sm-6">
+                <h4>Omid Farhang </h4>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Resume -->
+          <div class="row"> 
+            <!-- Sidebar -->
+            <div class="col-md-4">
+              <div class="side-bar"> 
+                
+                <!-- Professional Details -->
+                <h5 class="tittle">Professional Details</h5>
+                <img src="images/avatar.jpg" class="img-responsive" alt="">
+                <ul class="personal-info">
+                  <li>
+                    <p> <span> Name</span> Omid Farhang </p>
+                  </li>
+                  <li>
+                    <p> <span> Age</span> 30 Years </p>
+                  </li>
+                  <li>
+                    <p> <span> Location</span> Tehran, Iran </p>
+                  </li>
+                  <li>
+                    <p> <span> Experience</span> +5 Years </p>
+                  </li>
+                  <li>
+                    <p> <span> Career Level</span> Senior </p>
+                  </li>
+                  <li>
+                    <p> <span> Phone</span> +98 9195038545 </p>
+                  </li>
+                  <li>
+                    <p> <span> FAX</span> +98 (21) 89778279 </p>
+                  </li>
+                  <li>
+                    <p> <span> E-mail</span> <a href="#."> omid@omidfarhang.com</a> </p>
+                  </li>
+                  <li>
+                    <p> <span> Website</span><a href="https://omidfarhang.com"> omidfarhang.com </a></p>
+                  </li>
+                </ul>
+                
+                <!-- Attachments -->
+                <h5 class="tittle">Attachments</h5>
+                <div class="attach bor-btm padding-25">
+                  <ul>
+                    <li>
+                      <p><img src="images/pdf-icon.jpg" alt="" > <a href="https://go.omidfarhang.com/resume">OmidFarhangResume.pdf</a> <a href="https://go.omidfarhang.com/resume" class="pull-right"><i class="fa fa-cloud-download"></i></a> <a href="https://go.omidfarhang.com/resume" class="pull-right"><i class="fa fa-eye"></i></a></p>
+                    </li>
+                    <li>
+                      <p><img src="images/word-icon.jpg" alt="" > <a href="#.">OmidFarhangResume.docx</a> <a href="#." class="pull-right"><i class="fa fa-cloud-download"></i></a> <a href="#." class="pull-right"><i class="fa fa-eye"></i></a></p>
+                    </li>
+                  </ul>
+                </div>
+                
+                <!-- Social Profiles -->
+                <h5 class="tittle">Social Profiles</h5>
+                <div class="social-icon bor-btm padding-25">
+                  <ul>
+                    <li> <a href="#."> <i class="fa fa-facebook"></i></a> </li>
+                    <li> <a href="#."> <i class="fa fa-google"></i></a> </li>
+                    <li> <a href="#."> <i class="fa fa-twitter"></i></a> </li>
+                    <li> <a href="#."> <i class="fa fa-linkedin"></i></a> </li>
+                    <li> <a href="#."> <i class="fa fa-skype"></i></a> </li>
+                  </ul>
+                </div>
+                
+                <!-- Contact Me -->
+                <h5 class="tittle">Contact Me</h5>
+                <div class="contact padding-25"> 
+                  <!-- Success Msg -->
+                  <div id="contact_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Thank You. Your Message has been Submitted</div>
+                  
+                  <!-- FORM -->
+                  <form role="form" id="contact_form" class="contact-form" method="post" onSubmit="return false">
+                    <ul class="row">
+                      <li class="col-sm-12">
+                        <label>
+                          <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                        </label>
+                      </li>
+                      <li class="col-sm-12">
+                        <label>
+                          <input type="text" class="form-control" name="company" id="company" placeholder="Subject">
+                        </label>
+                      </li>
+                      <li class="col-sm-12">
+                        <label>
+                          <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message"></textarea>
+                        </label>
+                      </li>
+                      <li class="col-sm-12">
+                        <button type="submit"  value="submit" id="btn_submit" onClick="proceed();">Send Message</button>
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+              </div>
+            </div>
+            
+            <!-- MAIN CONTENT -->
+            <div class="col-md-8"> 
+              
+              <!-- NAV LINKS -->              
+              <nav> 
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-tabis" aria-expanded="false"> <span class="tittle">MENU</span> <span class="fa fa-navicon icon-nav"></span> </button>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav-tabis">
+                  <ul class="isop-filter nav nav-pills">
+                    <li role="presentation" class="active"><a href="#about-me" aria-controls="about-me" role="tab" data-toggle="tab"><i class="icon-user"></i> ABOUT ME</a></li>
+                    <li role="presentation"><a href="#resume" aria-controls="resume" role="tab" data-toggle="tab"><i class="icon-book-open"></i>RESUME</a></li>
+                    <!-- <li role="presentation"><a href="#portfolio" aria-controls="portfolio" role="tab" data-toggle="tab"><i class="icon-rocket"></i>PORTFOLIO</a></li> -->
+                    <!-- <li role="presentation"><a href="#blog" aria-controls="blog" role="tab" data-toggle="tab"><i class="icon-note"></i>BLOG</a></li> -->
+                    <li role="presentation"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab"> <i class="icon-pencil"></i>CONTACT ME</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <!-- NAV LINKS END -->
+              
+              
+              
+              <div class="tab-content"> 
+                
+                <!-- ABOUT ME -->
+                <div role="tabpanel" class="tab-pane fade in active" id="about-me">
+                  <div class="inside-sec"> 
+                    <!-- BIO AND SKILLS -->
+                    <h5 class="tittle">About Me</h5>
+                    
+                    <!-- Blog -->
+                    <section class="about-me padding-top-10"> 
+                      
+                      <!-- Personal Info -->
+                      <ul class="personal-info">
+                        <li>
+                          <p> <span> Name</span> Omid Farhang </p>
+                        </li>
+                        <li>
+                          <p> <span> Age</span> 30 Years </p>
+                        </li>
+                        <li>
+                          <p> <span> Location</span> Tehran, Iran </p>
+                        </li>
+                        <li>
+                          <p> <span> Experience</span> +5 Years </p>
+                        </li>
+                        <li>
+                          <p> <span> Career Level</span> Senior </p>
+                        </li>
+                        <li>
+                          <p> <span> Phone</span> +98 9195038545 </p>
+                        </li>
+                        <li>
+                          <p> <span> FAX</span> +98 (21) 89778279 </p>
+                        </li>
+                        <li>
+                          <p> <span> E-mail</span> <a href="#."> omid@omidfarhang.com</a> </p>
+                        </li>
+                        <li>
+                          <p> <span> Website</span><a href="https://omidfarhang.com"> omidfarhang.com </a></p>
+                        </li>
+                      </ul>
+                      
+                                      <!-- I’m Web Developer -->
+                <h5 class="tittle">I’m Senior Web Developer</h5>
+                <div class="padding-20">
+                  <p><strong>I'm a full stack web developer</strong><br />
+                    Developing small and mid-level projects and leading web developing teams.<br />
+                    <div class="margin-20">
+                      <p><strong>Frontend:</strong> Single Page Applications (SPA) using JavaScript and TypeScript, Angular, Responsive Design using Flex Layouts, GRPC and GraphQL Protocols.</p>
+                      <p><strong>Backend:</strong> Java (Spring Boot), NodeJS (ExpressJS), PHP (Laravel, WordPress, Pure).</p></div>
+                  </p>
+                  <p><strong>I'm an Advance Linux Operator</strong><br />
+                    I can maintain Linux systems and setup web services in Linux systems.
+                  </p>
+                  <p><strong>Malware collector and analyzer</strong></p>
+                  <p><strong>Interested in reveres engineering and debugging</strong></p>
+                </div>
+                      
+                      <!-- Services -->
+                      <h5 class="tittle">Services</h5>
+                      <div class="row padding-20 margin-top-50"> 
+                        
+                        <!-- Icon -->
+                        <div class="col-md-4 text-center">
+                          <div class="icon-box i-large ib-black">
+                            <div class="ib-icon"> <i class="fa fa-whatsapp"></i> </div>
+                            <div class="ib-info">
+                              <h4 class="h6">WEB DEVELOPMENT</h4>
+                              <p>We have created the new macbook psd version with scalable vector shapes.</p>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <!-- Icon -->
+                        <div class="col-md-4 text-center">
+                          <div class="icon-box i-large ib-black">
+                            <div class="ib-icon"> <i class="fa fa-magic"></i> </div>
+                            <div class="ib-info">
+                              <h4 class="h6">WEB DESIGN</h4>
+                              <p>We have created the new macbook psd version with scalable vector shapes.</p>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <!-- Icon -->
+                        <div class="col-md-4 text-center">
+                          <div class="icon-box i-large ib-black">
+                            <div class="ib-icon"> <i class="fa fa-smile-o"></i> </div>
+                            <div class="ib-info">
+                              <h4 class="h6">RESPONSIVE</h4>
+                              <p>We have created the new macbook psd version with scalable vector shapes.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- Icon Row -->
+                      <div class="row padding-20 margin-bottom-50"> 
+                        
+                        <!-- Icon -->
+                        <div class="col-md-4">
+                          <div class="icon-box i-large ib-black">
+                            <div class="ib-icon"> <i class="fa fa-diamond"></i> </div>
+                            <div class="ib-info">
+                              <h4 class="h6">Unique Design</h4>
+                              <p>We have created the new macbook psd version with scalable vector shapes.</p>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <!-- Icon -->
+                        <div class="col-md-4">
+                          <div class="icon-box i-large ib-black">
+                            <div class="ib-icon"> <i class="fa fa-server"></i> </div>
+                            <div class="ib-info">
+                              <h4 class="h6">Demos Layout</h4>
+                              <p>We have created the new macbook psd version with scalable vector shapes.</p>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <!-- Icon -->
+                        <div class="col-md-4">
+                          <div class="icon-box i-large ib-black">
+                            <div class="ib-icon"> <i class="fa fa-scissors"></i> </div>
+                            <div class="ib-info">
+                              <h4 class="h6">Clean Code</h4>
+                              <p>We have created the new macbook psd version with scalable vector shapes.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- Skills -->
+                      <h5 class="tittle">Skills</h5>
+                      
+                      <!-- Sound Engineering -->
+                      <div class="panel-group accordion padding-20" id="accordion">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+                        <!-- Skill -->
+                        <div class="panel panel-default">
+                          <div class="row">
+                            <div class="col-sm-4"> 
+                              <!-- PANEL HEADING -->
+                              <div class="panel-heading">
+                                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="collapsed"> Frontend Development</a> </h4>
+                              </div>
+                            </div>
+                            
+                            <!-- Skillls Bars -->
+                            <div class="col-sm-8">
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                              </div>
+                              
+                              <!-- Skillls Text -->
+                              <div id="collapse1" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                  <p>Single Page Applications (SPA) using JavaScript and TypeScript, Angular, Responsive Design using Flex Layouts, GRPC and GraphQL Protocols.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
+                        <!-- Skill -->
+                        <div class="panel panel-default">
+                            <div class="row">
+                              <div class="col-sm-4"> 
+                                <!-- PANEL HEADING -->
+                                <div class="panel-heading">
+                                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed"> Backend Development</a> </h4>
+                                </div>
+                              </div>
+                              
+                              <!-- Skillls Bars -->
+                              <div class="col-sm-8">
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80" style="width: 80%;"> <span class="sr-only">80% Complete</span> </div>
+                                </div>
+                                
+                                <!-- Skillls Text -->
+                                <div id="collapse2" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                    <p>Java (Spring Boot), NodeJS (ExpressJS), PHP (Laravel, WordPress, Pure)</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Skill -->
+                        <div class="panel panel-default">
+                            <div class="row">
+                              <div class="col-sm-4"> 
+                                <!-- PANEL HEADING -->
+                                <div class="panel-heading">
+                                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed"> Linux Administration</a> </h4>
+                                </div>
+                              </div>
+                              
+                              <!-- Skillls Bars -->
+                              <div class="col-sm-8">
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80" style="width: 80%;"> <span class="sr-only">80% Complete</span> </div>
+                                </div>
+                                
+                                <!-- Skillls Text -->
+                                <div id="collapse3" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                    <p>Power User, I can setup and maintenance Server and Client linux systems.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Skill -->
+                        <div class="panel panel-default">
+                            <div class="row">
+                              <div class="col-sm-4"> 
+                                <!-- PANEL HEADING -->
+                                <div class="panel-heading">
+                                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="collapsed"> Network Administration</a> </h4>
+                                </div>
+                              </div>
+                              
+                              <!-- Skillls Bars -->
+                              <div class="col-sm-8">
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50" style="width: 50%;"> <span class="sr-only">50% Complete</span> </div>
+                                </div>
+                                
+                                <!-- Skillls Text -->
+                                <div id="collapse4" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                    <p>MCSA 2012, CCNA 200-120</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                
+                <!-- RESUME -->
+                <div role="tabpanel" class="tab-pane fade" id="resume">
+                  <div class="inside-sec"> 
+                    <!-- BIO AND SKILLS -->
+                    <h5 class="tittle">Bio & Skills</h5>
+                    <div class="bio-info padding-30">
+                        <p><strong>I'm a full stack web developer</strong><br />
+                          Developing small and mid-level projects and leading web developing teams.<br />
+                          <div class="margin-20">
+                            <p><strong>Frontend:</strong> Single Page Applications (SPA) using JavaScript and TypeScript, Angular, Responsive Design using Flex Layouts, GRPC and GraphQL Protocols.</p>
+                            <p><strong>Backend:</strong> Java (Spring Boot), NodeJS (ExpressJS), PHP (Laravel, WordPress, Pure).</p></div>
+                        </p>
+                        <p><strong>I'm an Advance Linux Operator</strong><br />
+                          I can maintain Linux systems and setup web services in Linux systems.
+                        </p>
+                        <p><strong>Malware collector and analyzer</strong></p>
+                        <p><strong>Interested in reveres engineering and debugging</strong></p>
+                      <div class="skills"> 
+                        
+                        <!-- Full SKILLS -->
+                        <h5 class="margin-top-30">Skills</h5>
+
+                        <h6>General</h6>
+                        <!-- Skill List -->
+                        <div class="panel-group accordion" id="accordion7">
+
+                            <!-- Skill -->
+                            <div class="panel panel-default">
+                              <div class="row">
+                                <div class="col-sm-4"> 
+                                  <!-- PANEL HEADING -->
+                                  <div class="panel-heading">
+                                    <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse71" class="collapsed"> Team Leadership and Managment</a> </h4>
+                                  </div>
+                                </div>
+                                
+                                <!-- Skillls Bars -->
+                                <div class="col-sm-8">
+                                  <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Text -->
+                                  <div id="collapse71" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                      <p>Advanced Level.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+  
+                            <!-- Skill -->
+                            <div class="panel panel-default">
+                                <div class="row">
+                                  <div class="col-sm-4"> 
+                                    <!-- PANEL HEADING -->
+                                    <div class="panel-heading">
+                                      <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse72" class="collapsed"> Technical Manager</a> </h4>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Bars -->
+                                  <div class="col-sm-8">
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                    </div>
+                                    
+                                    <!-- Skillls Text -->
+                                    <div id="collapse72" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                        <p>Advanced Level.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- Skill -->
+                            <div class="panel panel-default">
+                                <div class="row">
+                                  <div class="col-sm-4"> 
+                                    <!-- PANEL HEADING -->
+                                    <div class="panel-heading">
+                                      <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse73" class="collapsed"> Linux Operator</a> </h4>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Bars -->
+                                  <div class="col-sm-8">
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                    </div>
+                                    
+                                    <!-- Skillls Text -->
+                                    <div id="collapse73" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                        <p>Advanced Level.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+
+                        <h6>Languages</h6>
+                        <!-- Skill List -->
+                        <div class="panel-group accordion" id="accordion5">
+
+                          <!-- Skill -->
+                          <div class="panel panel-default">
+                            <div class="row">
+                              <div class="col-sm-4"> 
+                                <!-- PANEL HEADING -->
+                                <div class="panel-heading">
+                                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse51" class="collapsed"> JavaScript</a> </h4>
+                                </div>
+                              </div>
+                              
+                              <!-- Skillls Bars -->
+                              <div class="col-sm-8">
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                </div>
+                                
+                                <!-- Skillls Text -->
+                                <div id="collapse51" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                    <p>Advanced Level.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Skill -->
+                          <div class="panel panel-default">
+                              <div class="row">
+                                <div class="col-sm-4"> 
+                                  <!-- PANEL HEADING -->
+                                  <div class="panel-heading">
+                                    <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse52" class="collapsed"> TypeScript</a> </h4>
+                                  </div>
+                                </div>
+                                
+                                <!-- Skillls Bars -->
+                                <div class="col-sm-8">
+                                  <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Text -->
+                                  <div id="collapse52" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                      <p>Advanced Level.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Skill -->
+                          <div class="panel panel-default">
+                              <div class="row">
+                                <div class="col-sm-4"> 
+                                  <!-- PANEL HEADING -->
+                                  <div class="panel-heading">
+                                    <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse53" class="collapsed"> PHP</a> </h4>
+                                  </div>
+                                </div>
+                                
+                                <!-- Skillls Bars -->
+                                <div class="col-sm-8">
+                                  <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Text -->
+                                  <div id="collapse53" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                      <p>Advanced Level.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Skill -->
+                          <div class="panel panel-default">
+                              <div class="row">
+                                <div class="col-sm-4"> 
+                                  <!-- PANEL HEADING -->
+                                  <div class="panel-heading">
+                                    <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse54" class="collapsed"> SASS/SCSS</a> </h4>
+                                  </div>
+                                </div>
+                                
+                                <!-- Skillls Bars -->
+                                <div class="col-sm-8">
+                                  <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Text -->
+                                  <div id="collapse54" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                      <p>Advanced Level.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Skill -->
+                          <div class="panel panel-default">
+                              <div class="row">
+                                <div class="col-sm-4"> 
+                                  <!-- PANEL HEADING -->
+                                  <div class="panel-heading">
+                                    <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse55" class="collapsed"> LESS</a> </h4>
+                                  </div>
+                                </div>
+                                
+                                <!-- Skillls Bars -->
+                                <div class="col-sm-8">
+                                  <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Text -->
+                                  <div id="collapse55" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                      <p>Advanced Level.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Skill -->
+                          <div class="panel panel-default">
+                              <div class="row">
+                                <div class="col-sm-4"> 
+                                  <!-- PANEL HEADING -->
+                                  <div class="panel-heading">
+                                    <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse56" class="collapsed"> JAVA</a> </h4>
+                                  </div>
+                                </div>
+                                
+                                <!-- Skillls Bars -->
+                                <div class="col-sm-8">
+                                  <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Text -->
+                                  <div id="collapse56" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                      <p>Advanced Level.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <h6>Framework And Technologies</h6>
+                        <!-- Skill List -->
+                        <div class="panel-group accordion" id="accordion6">
+
+                            <!-- Skill -->
+                            <div class="panel panel-default">
+                              <div class="row">
+                                <div class="col-sm-4"> 
+                                  <!-- PANEL HEADING -->
+                                  <div class="panel-heading">
+                                    <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse61" class="collapsed"> Angular/AngularJS</a> </h4>
+                                  </div>
+                                </div>
+                                
+                                <!-- Skillls Bars -->
+                                <div class="col-sm-8">
+                                  <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Text -->
+                                  <div id="collapse61" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                      <p>Advanced Level.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+  
+                            <!-- Skill -->
+                            <div class="panel panel-default">
+                                <div class="row">
+                                  <div class="col-sm-4"> 
+                                    <!-- PANEL HEADING -->
+                                    <div class="panel-heading">
+                                      <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse62" class="collapsed"> Laravel</a> </h4>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Bars -->
+                                  <div class="col-sm-8">
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                    </div>
+                                    
+                                    <!-- Skillls Text -->
+                                    <div id="collapse62" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                        <p>Advanced Level.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+  
+                              <!-- Skill -->
+                            <div class="panel panel-default">
+                                <div class="row">
+                                  <div class="col-sm-4"> 
+                                    <!-- PANEL HEADING -->
+                                    <div class="panel-heading">
+                                      <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse63" class="collapsed"> WordPress</a> </h4>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Bars -->
+                                  <div class="col-sm-8">
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                    </div>
+                                    
+                                    <!-- Skillls Text -->
+                                    <div id="collapse63" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                        <p>Advanced Level.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+  
+                              <!-- Skill -->
+                            <div class="panel panel-default">
+                                <div class="row">
+                                  <div class="col-sm-4"> 
+                                    <!-- PANEL HEADING -->
+                                    <div class="panel-heading">
+                                      <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse64" class="collapsed"> Node.JS</a> </h4>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Bars -->
+                                  <div class="col-sm-8">
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                    </div>
+                                    
+                                    <!-- Skillls Text -->
+                                    <div id="collapse64" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                        <p>Advanced Level.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+  
+                              <!-- Skill -->
+                            <div class="panel panel-default">
+                                <div class="row">
+                                  <div class="col-sm-4"> 
+                                    <!-- PANEL HEADING -->
+                                    <div class="panel-heading">
+                                      <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse65" class="collapsed"> SpringBoot</a> </h4>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Bars -->
+                                  <div class="col-sm-8">
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="40" style="width: 40%;"> <span class="sr-only">100% Complete</span> </div>
+                                    </div>
+                                    
+                                    <!-- Skillls Text -->
+                                    <div id="collapse65" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                        <p>Advanced Level.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+                          <h6>Tools and Softwares</h6>
+                        <!-- Skill List -->
+                        <div class="panel-group accordion" id="accordion8">
+
+                            <!-- Skill -->
+                            <div class="panel panel-default">
+                              <div class="row">
+                                <div class="col-sm-4"> 
+                                  <!-- PANEL HEADING -->
+                                  <div class="panel-heading">
+                                    <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse81" class="collapsed"> Git</a> </h4>
+                                  </div>
+                                </div>
+                                
+                                <!-- Skillls Bars -->
+                                <div class="col-sm-8">
+                                  <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Text -->
+                                  <div id="collapse81" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                      <p>Advanced Level.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+  
+                            <!-- Skill -->
+                            <div class="panel panel-default">
+                                <div class="row">
+                                  <div class="col-sm-4"> 
+                                    <!-- PANEL HEADING -->
+                                    <div class="panel-heading">
+                                      <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse82" class="collapsed"> NPM</a> </h4>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Bars -->
+                                  <div class="col-sm-8">
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                    </div>
+                                    
+                                    <!-- Skillls Text -->
+                                    <div id="collapse82" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                        <p>Advanced Level.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+  
+                              <!-- Skill -->
+                            <div class="panel panel-default">
+                                <div class="row">
+                                  <div class="col-sm-4"> 
+                                    <!-- PANEL HEADING -->
+                                    <div class="panel-heading">
+                                      <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse83" class="collapsed"> Webpack</a> </h4>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Bars -->
+                                  <div class="col-sm-8">
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                    </div>
+                                    
+                                    <!-- Skillls Text -->
+                                    <div id="collapse83" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                        <p>Advanced Level.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+  
+                              <!-- Skill -->
+                            <div class="panel panel-default">
+                                <div class="row">
+                                  <div class="col-sm-4"> 
+                                    <!-- PANEL HEADING -->
+                                    <div class="panel-heading">
+                                      <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse84" class="collapsed"> Gulp</a> </h4>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Bars -->
+                                  <div class="col-sm-8">
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                    </div>
+                                    
+                                    <!-- Skillls Text -->
+                                    <div id="collapse84" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                        <p>Advanced Level.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+  
+                              <!-- Skill -->
+                            <div class="panel panel-default">
+                                <div class="row">
+                                  <div class="col-sm-4"> 
+                                    <!-- PANEL HEADING -->
+                                    <div class="panel-heading">
+                                      <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse85" class="collapsed"> Grunt</a> </h4>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Bars -->
+                                  <div class="col-sm-8">
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                    </div>
+                                    
+                                    <!-- Skillls Text -->
+                                    <div id="collapse85" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                        <p>Advanced Level.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+  
+                              <!-- Skill -->
+                            <div class="panel panel-default">
+                                <div class="row">
+                                  <div class="col-sm-4"> 
+                                    <!-- PANEL HEADING -->
+                                    <div class="panel-heading">
+                                      <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion5" href="#collapse86" class="collapsed"> Maven</a> </h4>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Skillls Bars -->
+                                  <div class="col-sm-8">
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span class="sr-only">100% Complete</span> </div>
+                                    </div>
+                                    
+                                    <!-- Skillls Text -->
+                                    <div id="collapse86" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                        <p>Advanced Level.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Professional Experience -->
+                  <div class="inside-sec margin-top-30"> 
+                    <!-- Professional Experience -->
+                    <h5 class="tittle">Professional Experience</h5>
+                    <div class="padding-30 exp-history"> 
+                      
+                      <!-- Poolito -->
+                      <div class="exp">
+                          <div class="media-left"> <span class="sun">2018 - Now</span> </div>
+                          <div class="media-body"> 
+                            
+                            <!-- COmpany Logo -->
+                            <div class="company-logo"> <img src="images/company-logo-poolito.png" alt="Poolito Logo" > </div>
+                            <h6>Lead Web Developer</h6>
+                            <p>Poolito</p>
+                            <p>Tehran, Iran</p>
+                            <p class="margin-top-10"> Leading Frontend Team for building Admin/Client Panel using Angular 7, Angular Material, Angular Flex and gRPC Protocol. <br />
+                                Leading Frontend Team for building landing page using Bootstrap, Scrollify, jQuery, Popper.</p>
+                          </div>
+                        </div>
+
+                      <!-- ModernPal -->
+                      <div class="exp">
+                        <div class="media-left"> <span class="sun">2015 - 2018</span> </div>
+                        <div class="media-body"> 
+                          
+                          <!-- COmpany Logo -->
+                          <div class="company-logo"> <img src="images/company-logo-modernpal.png" alt="ModernPal Logo" > </div>
+                          <h6>Full Stack Developer</h6>
+                          <p>ModernPal</p>
+                          <p>Tehran, Iran</p>
+                          <p class="margin-top-10"> Building several web application, frontend and backend using AngularJS, Angular, PHP, BootStrap, Material etc... </p>
+                        </div>
+                      </div>
+                      
+                      <!-- Haseb -->
+                      <div class="exp">
+                        <div class="media-left"> <span class="sun">2014 - 2015</span> </div>
+                        <div class="media-body"> 
+                          
+                          <!-- COmpany Logo -->
+                          <div class="company-logo"> <img src="images/company-logo-haseb.png" alt="HasebSystem Logo" > </div>
+                          <h6>IT Professional</h6>
+                          <p>HasebSystem</p>
+                          <p>Tehran, Iran</p>
+                          <p class="margin-top-10">IT Support, Web Developer, Network Manager</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Academic Background -->
+                  <div class="inside-sec margin-top-30"> 
+                    <!-- Academic Background -->
+                    <h5 class="tittle">Academic Background</h5>
+                    <div class="padding-30 exp-history"> 
+                      
+                      <!-- Wordpress Developer -->
+                      <div class="exp">
+                        <div class="media-left"> <span class="sun">2016 - 2016</span> </div>
+                        <div class="media-body"> 
+                          <!-- COmpany Logo -->
+                          <div class="company-logo"> <span class="diploma"><i class="fa fa-graduation-cap"></i> Download Diploma</span> </div>
+                          <h6>CCNA 200-120</h6>
+                          <p>Cisco</p>
+                          <p>Tehran, Iran</p>
+                        </div>
+                      </div>
+                      
+                      <!-- html5 and css3 Developer -->
+                      <div class="exp">
+                        <div class="media-left"> <span class="sun">2015 - 2015</span> </div>
+                        <div class="media-body"> 
+                          <!-- COmpany Logo -->
+                          <div class="company-logo"> <span class="diploma"><i class="fa fa-graduation-cap"></i> Download Diploma</span> </div>
+                          <h6>MCSA 2012</h6>
+                          <p>Microsoft</p>
+                          <p>Tehran, Iran</p>
+                        </div>
+                      </div>
+
+                      <!-- html5 and css3 Developer -->
+                      <div class="exp">
+                          <div class="media-left"> <span class="sun">2014 - 2014</span> </div>
+                          <div class="media-body"> 
+                            <!-- COmpany Logo -->
+                            <div class="company-logo"> <span class="diploma"><i class="fa fa-graduation-cap"></i> Download Diploma</span> </div>
+                            <h6>Network+</h6>
+                            <p>CompTIA</p>
+                            <p>Tehran, Iran</p>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- PORTFOLIO -->
+                <div role="tabpanel" class="tab-pane fade" id="portfolio">
+                  <div class="inside-sec"> 
+                    <!-- BIO AND SKILLS -->
+                    <h5 class="tittle">PORTFOLIO</h5>
+                    
+                    <!-- PORTFOLIO -->
+                    <section class="portfolio padding-top-50 padding-bottom-50"> 
+                      <!-- Work Filter --> 
+                      <!-- PORTFOLIO ITEMS -->
+                      <div id="Container" class="item-space row col-3"> 
+                        
+                        <!-- ITEM -->
+                        <article class="portfolio-item mix pf-web-design">
+                          <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="images/portfolio/5/img-1.jpg"> </a>
+                            <div class="portfolio-overlay style-4">
+                              <div class="detail-info">
+                                <div class="position-center-center">
+                                  <h3 class="no-margin">Assembly Branding</h3>
+                                  <span><a href="#.">Fashion / trending</a></span> <a href="#." class="go"><i class="fa fa-search"></i></a> <a href="#." class="go"><i class="fa fa-link"></i></a> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                        
+                        <!-- ITEM -->
+                        <article class="portfolio-item mix pf-photography pf-branding-design">
+                          <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="images/portfolio/5/img-2.jpg"> </a>
+                            <div class="portfolio-overlay style-4">
+                              <div class="detail-info">
+                                <div class="position-center-center">
+                                  <h3 class="no-margin">Assembly Branding</h3>
+                                  <span><a href="#.">Fashion / trending</a></span> <a href="#." class="go"><i class="fa fa-search"></i></a> <a href="#." class="go"><i class="fa fa-link"></i></a> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                        
+                        <!-- ITEM -->
+                        <article class="portfolio-item mix pf-web-design pf-branding-design">
+                          <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="images/portfolio/5/img-3.jpg"> </a>
+                            <div class="portfolio-overlay style-4">
+                              <div class="detail-info">
+                                <div class="position-center-center">
+                                  <h3 class="no-margin">Assembly Branding</h3>
+                                  <span><a href="#.">Fashion / trending</a></span> <a href="#." class="go"><i class="fa fa-search"></i></a> <a href="#." class="go"><i class="fa fa-link"></i></a> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                        
+                        <!-- ITEM -->
+                        <article class="portfolio-item mix pf-web-design pf-digital-art ">
+                          <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="images/portfolio/5/img-4.jpg"> </a>
+                            <div class="portfolio-overlay style-4">
+                              <div class="detail-info">
+                                <div class="position-center-center">
+                                  <h3 class="no-margin">Assembly Branding</h3>
+                                  <span><a href="#.">Fashion / trending</a></span> <a href="#." class="go"><i class="fa fa-search"></i></a> <a href="#." class="go"><i class="fa fa-link"></i></a> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                        
+                        <!-- ITEM -->
+                        <article class="portfolio-item mix pf-branding-design pf-digital-art">
+                          <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="images/portfolio/5/img-5.jpg"> </a>
+                            <div class="portfolio-overlay style-4">
+                              <div class="detail-info">
+                                <div class="position-center-center">
+                                  <h3 class="no-margin">Assembly Branding</h3>
+                                  <span><a href="#.">Fashion / trending</a></span> <a href="#." class="go"><i class="fa fa-search"></i></a> <a href="#." class="go"><i class="fa fa-link"></i></a> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                        
+                        <!-- ITEM -->
+                        <article class="portfolio-item mix pf-design pf-digital-art">
+                          <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="images/portfolio/5/img-9.jpg"> </a>
+                            <div class="portfolio-overlay style-4">
+                              <div class="detail-info">
+                                <div class="position-center-center">
+                                  <h3 class="no-margin">Assembly Branding</h3>
+                                  <span><a href="#.">Fashion / trending</a></span> <a href="#." class="go"><i class="fa fa-search"></i></a> <a href="#." class="go"><i class="fa fa-link"></i></a> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                        
+                        <!-- ITEM -->
+                        <article class="portfolio-item mix pf-web-design pf-branding-design">
+                          <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="images/portfolio/5/img-7.jpg"> </a>
+                            <div class="portfolio-overlay style-4">
+                              <div class="detail-info">
+                                <div class="position-center-center">
+                                  <h3 class="no-margin">Assembly Branding</h3>
+                                  <span><a href="#.">Fashion / trending</a></span> <a href="#." class="go"><i class="fa fa-search"></i></a> <a href="#." class="go"><i class="fa fa-link"></i></a> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                        
+                        <!-- ITEM -->
+                        <article class="portfolio-item mix pf-web-design pf-digital-art ">
+                          <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="images/portfolio/5/img-8.jpg"> </a>
+                            <div class="portfolio-overlay style-4">
+                              <div class="detail-info">
+                                <div class="position-center-center">
+                                  <h3 class="no-margin">Assembly Branding</h3>
+                                  <span><a href="#.">Fashion / trending</a></span> <a href="#." class="go"><i class="fa fa-search"></i></a> <a href="#." class="go"><i class="fa fa-link"></i></a> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                        
+                        <!-- ITEM -->
+                        <article class="portfolio-item mix pf-web-design pf-branding-design">
+                          <div class="portfolio-image"> <a href="#."> <img class="img-responsive" alt="Open Imagination" src="images/portfolio/5/img-9.jpg"> </a>
+                            <div class="portfolio-overlay style-4">
+                              <div class="detail-info">
+                                <div class="position-center-center">
+                                  <h3 class="no-margin">Assembly Branding</h3>
+                                  <span><a href="#.">Fashion / trending</a></span> <a href="#." class="go"><i class="fa fa-search"></i></a> <a href="#." class="go"><i class="fa fa-link"></i></a> </div>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                
+                <!-- BLOG -->
+                <div role="tabpanel" class="tab-pane fade" id="blog">
+                  <div class="inside-sec"> 
+                    <!-- BIO AND SKILLS -->
+                    <h5 class="tittle">BLOG</h5>
+                    
+                    <!-- Blog -->
+                    <section class="blog blog-page padding-20 padding-top-50 padding-bottom-50 "> 
+                      
+                      <!-- Blog Post -->
+                      <article> <img class="img-responsive" src="images/blog-img-1.jpg" alt="" >
+                        <div class="post-info">
+                          <div class="post-in">
+                            <div class="extra"> <span><i class="icon-calendar"></i>Aug 29, 2015</span> <span class="margin-left-15"><i class="icon-user"></i>Admin</span> <span class="margin-left-15"><i class="icon-bubbles"></i> Featured</span></div>
+                            <a href="#." class="tittle-post"> ENJOYING THE SMALL THINGS </a>
+                            <p>t's time to play the music. It's time to light the lights. It's time to meet the Muppets on the Muppet Show tonight! Boy the way Glen Miller played Songs the hit parade. Guys like us we had it made. Those were the days. These Happy Days are yours and mine Happy Days.</p>
+                            <a href="#." class="btn-1">Read MOre <i class="fa fa-angle-right"></i></a> </div>
+                        </div>
+                      </article>
+                      
+                      <!-- BLOG POST -->
+                      <article> <img class="img-responsive" src="images/blog-img-2.jpg" alt="" >
+                        <div class="post-info">
+                          <div class="post-in">
+                            <div class="extra"> <span><i class="icon-calendar"></i>Aug 29, 2015</span> <span class="margin-left-15"><i class="icon-user"></i>Admin</span> <span class="margin-left-15"><i class="icon-bubbles"></i> Featured</span></div>
+                            <a href="#." class="tittle-post"> ENJOYING THE SMALL THINGS </a>
+                            <p>t's time to play the music. It's time to light the lights. It's time to meet the Muppets on the Muppet Show tonight! Boy the way Glen Miller played Songs the hit parade. Guys like us we had it made. Those were the days. These Happy Days are yours and mine Happy Days.</p>
+                            <a href="#." class="btn-1">Read MOre <i class="fa fa-angle-right"></i></a> </div>
+                        </div>
+                      </article>
+                      
+                      <!-- BLOG POST -->
+                      
+                      <article> <img class="img-responsive" src="images/blog-img-3.jpg" alt="" >
+                        <div class="post-info">
+                          <div class="post-in">
+                            <div class="extra"> <span><i class="icon-calendar"></i>Aug 29, 2015</span> <span class="margin-left-15"><i class="icon-user"></i>Admin</span> <span class="margin-left-15"><i class="icon-bubbles"></i> Featured</span></div>
+                            <a href="#." class="tittle-post"> ENJOYING THE SMALL THINGS </a>
+                            <p>t's time to play the music. It's time to light the lights. It's time to meet the Muppets on the Muppet Show tonight! Boy the way Glen Miller played Songs the hit parade. Guys like us we had it made. Those were the days. These Happy Days are yours and mine Happy Days.</p>
+                            <a href="#." class="btn-1">Read MOre <i class="fa fa-angle-right"></i></a> </div>
+                        </div>
+                      </article>
+                      
+                      <!-- Pagination -->
+                      <ul class="pagination">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">Next</a></li>
+                      </ul>
+                    </section>
+                  </div>
+                </div>
+                
+                <!-- Contact -->
+                <div role="tabpanel" class="tab-pane fade" id="contact">
+                  <div class="inside-sec"> 
+                    <!-- BIO AND SKILLS -->
+                    <h5 class="tittle">CONATCT ME</h5>
+                    
+                    <!-- Conatct Pages  -->
+                    <section>
+                      <div class="padding-left-30 padding-right-30 padding-top-50 padding-bottom-50">
+                        <div class="row "> 
+                          <!-- Phone Number  -->
+                          <div class="col-md-4 text-center">
+                            <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-xlarge dark-text">
+                              <div class="ib-icon"> <i class="fa fa-mobile text-primary"></i> </div>
+                              <div class="ib-info text-dark">
+                                <p>+98 9195038545</p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <!-- Address -->
+                          <div class="col-md-4 text-center">
+                            <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-large">
+                              <div class="ib-icon"> <i class="fa fa-map-marker text-primary"></i> </div>
+                              <div class="ib-info text-dark">
+                                <p>Tehran, Iran</p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <!-- Email  -->
+                          <div class="col-md-4 text-center">
+                            <div class="icon-box ib-style-1 ib-circle ib-bordered ib-bordered-white ib-bordered-thin ib-medium ib-text-alt i-large">
+                              <div class="ib-icon"> <i class="fa fa-envelope-o text-primary"></i> </div>
+                              <div class="ib-info text-dark">
+                                <p class="no-margin-bottom"><a href="#." class="text-white">omid@omidfarhang.com</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- MAP -->
+                      <section class="map-block">
+                        <div class="map-wrapper" id="map-canvas" data-lat="-37.814199" data-lng="144.961560" data-zoom="13" data-style="1"></div>
+                        <div class="markers-wrapper addresses-block"> <a class="marker" data-rel="map-canvas" data-lat="-37.814199" data-lng="144.961560" data-string="Envato"></a> </div>
+                      </section>
+                      
+                      <!-- Contact  -->
+                      <h5 class="tittle">SAY HELLO</h5>
+                      <div class="contact style-3 light-border padding-top-50 padding-bottom-50 padding-left-20 padding-right-20"> 
+                        
+                        <!-- Form  -->
+                        <div class="contact-right"> 
+                          <!-- Success Msg -->
+                          <div id="contact_message_1" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Thank You. Your Message has been Submitted</div>
+                          
+                          <!-- FORM -->
+                          <form role="form" id="contact_form_1" class="contact-form" method="post" onSubmit="return false">
+                            <ul class="row">
+                              <li class="col-sm-4">
+                                <label>
+                                  <input type="text" class="form-control" name="name" id="name_1" placeholder="NAME">
+                                </label>
+                              </li>
+                              <li class="col-sm-4">
+                                <label>
+                                  <input type="text" class="form-control" name="email" id="email_1" placeholder="EMAIL">
+                                </label>
+                              </li>
+                              <li class="col-sm-4">
+                                <label>
+                                  <input type="text" class="form-control" name="company" id="company_1" placeholder="SUBJECT">
+                                </label>
+                              </li>
+                              <li class="col-sm-12">
+                                <label>
+                                  <textarea class="form-control" name="message" id="message_1" rows="5" placeholder="CONTENT..."></textarea>
+                                </label>
+                              </li>
+                              <li class="col-sm-12">
+                                <button type="submit"  value="submit" id="btn_submit_1" onClick="proceed();">SEND ME</button>
+                              </li>
+                            </ul>
+                          </form>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- End Content --> 
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="rights">
+      <p>© Copyright 2019 Omid Farhang. All right reserved.</p>
+    </div>
+  </footer>
+  <!-- End Footer --> 
+  
 </div>
- 
+<!-- End Page Wrapper --> 
+
+<!-- JavaScripts --> 
+<script src="js/vendors/jquery/jquery.min.js"></script> 
+<script src="js/vendors/bootstrap.min.js"></script> 
+<script src="js/vendors/owl.carousel.min.js"></script> 
+<script src="js/vendors/jquery.isotope.min.js"></script> 
+<script src="js/main.js"></script> 
+
+<!-- Begin Map Script--> 
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
+<script src="js/vendors/map.js"></script>
+</body>
+</html>
